@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.count do |element|
+  planeteer_calls.any? do |element|
     if element.size > 4
   end
 end
