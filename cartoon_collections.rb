@@ -24,6 +24,4 @@ def find_valid_calls(planeteer_calls)
     valid.calls == element
     p element
   end
-  end
-  
 end
